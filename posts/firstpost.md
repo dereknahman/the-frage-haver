@@ -12,7 +12,7 @@ I started this blog for a few reasons:
 
 👉🏻 To publicly answer these questions so that others might learn from them too.
 
-👉🏻 To keep a record of my progresss as I work at becoming become a better developer.
+👉🏻 To keep a record of my progresss as I ~~work at becoming~~ become a better developer.
 
 The format is simple.
 
