@@ -1,5 +1,5 @@
 ---
-title: Hello, World!
+title: hello, world!
 description: This is the first post!
 date: 2019-07-29
 tags:

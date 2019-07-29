@@ -2,12 +2,12 @@
 layout: layouts/home.njk
 tags:
   - nav
-navtitle: Home
+navtitle: home
 ---
 
-<h1>Latest posts</h1>
+<h1>latest posts</h1>
 
 {% set postslist = collections.posts | head(-3) %}
 {% include "postslist.njk" %}
 
-<p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>
+<p>more posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>
