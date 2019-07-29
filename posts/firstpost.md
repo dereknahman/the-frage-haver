@@ -18,7 +18,7 @@ The format is simple.
 
 I’m going to record the questions that arise as I bash my head against new concepts and languages, and I’ll answer each one of them here.
 
-The shape of this blog will remain the same, but the subject matter will change over time. At the moment I’m learning React, and in future it’ll be React Native, Rust, Elixir and Phoenix, and probably lots of other things I don’t I’m into yet.
+The shape of this blog will remain the same, but the subject matter will change over time. At the moment I’m learning React, and in future it’ll be React Native, Rust, Elixir and Phoenix, and probably lots of other things I don’t know that I’m into yet.
 
 ## I’m really excited!
 
