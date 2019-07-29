@@ -13,6 +13,6 @@ I used to work in architecture and journalism and now I'm a programmer.
 
 I love problem-solving and learning new things.
 
-You can find me at [@keinegurke_](https://twitter.com/keinegurke_).
+You can find me at kirstysimmonds@icloud.com or at [@keinegurke_](https://twitter.com/keinegurke_).
 
 (I don’t like cucumbers.)
