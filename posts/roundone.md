@@ -36,7 +36,7 @@ Component-based development can lead to big, unwieldy, polluted web applications
 
 Unit testing
 
-This is where you break code down into pieces and subject each little piece to a series of tests. They run periodically, often after changes to the suorce code. They don't depend on outside systems, only their tiny little self-contained ecosystems.
+This is where you break code down into pieces and subject each little piece to a series of tests. They run periodically, often after changes to the source code. They don't depend on outside systems, only their tiny little self-contained ecosystems.
 
 Integration testing
 
