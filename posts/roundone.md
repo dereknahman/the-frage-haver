@@ -16,9 +16,9 @@ Both of these things came up repeatedly while I was looking at React. So:
 
 npm is a package manager for Node.js. Node.js was invented because we needed a way to run JavaScript on our machines in standalone applications, rather than just in the browser (i.e. Chrome, Firefox…). npm does create some basic directory structures and organisation, but its main purpose is automated dependency and package management. The user can specify their project’s dependencies (i.e. the specific versions of the specific technologies required to make their project run) in the ``package-lock.json`` file so that anyone else jumping into the project can simply run npm install and have all the correct dependencies ready to go. 
 
-Yarn is essentially the same thing except it’s made by Facebook, which some people dislike. It is an abstraction layer developed over npm and they are both using the NPM registry. Yarn uses ``yarn.lock`` to define and install dependencies for projects. Yarn used to be much faster than npm but isn’t any more. 
+Yarn is essentially the same thing. It is an abstraction layer developed over npm and they are both using the NPM registry. Yarn uses ``yarn.lock`` to define and install dependencies for projects. Yarn used to be much faster than npm but isn’t any more. 
 
-Yarn comes up a lot in the React tutorials I’m doing. Maybe because they’re both made by Facebook? Anyway, I could bang on all day about this because lots of people on the internet have opinions, but I won’t. There's your summary!
+Yarn comes up a lot in the React tutorials I’m doing, as does npm. Anyway, I could bang on all day about this because lots of people on the internet have opinions, but I won’t. There's your summary!
 
 ## What are the advantages and disadvantages of component-based apps?
 
