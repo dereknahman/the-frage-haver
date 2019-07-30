@@ -20,8 +20,7 @@ Yarn is essentially the same thing except it’s made by Facebook, which some pe
 
 Yarn comes up a lot in the React tutorials I’m doing. Maybe because they’re both made by Facebook? Anyway, I could bang on all day about this because lots of people on the internet have opinions, but I won’t. There's your summary!
 
-## What are the advantages and disadvantages of  
-## component-based apps, such as React apps?
+## What are the advantages and disadvantages of component-based apps?
 
 Advantages:
 
