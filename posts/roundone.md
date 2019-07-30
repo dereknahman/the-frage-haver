@@ -20,12 +20,12 @@ Yarn is essentially the same thing except it’s made by Facebook, which some pe
 
 Yarn comes up a lot in the React tutorials I’m doing. Maybe because they’re both made by Facebook? Anyway, I could bang on all day about this because lots of people on the internet have opinions, but I won’t. There's your summary!
 
-## What are the advantages and disadvantages of
+## What are the advantages and disadvantages of  
 ## component-based apps, such as React apps?
 
 Advantages:
 
-Component-based architecture turns common use cases into reusable modules of code so that developers don't have to reinvent the wheel, and can simply use and re-use code as it's needed. This is super handy with a website such as Facebook that have several dynamic elements (chat boxes, news feed, notifications, etc) on the page which need to be updated independently from one another.
+Component-based architecture turns common use cases into reusable modules of code so that developers don't have to reinvent the wheel, and can simply use and re-use code as it's needed. This is super handy with websites such as Facebook that have several dynamic elements (chat boxes, news feed, notifications, etc) on the page which need to be updated independently from one another.
 
 Components can be faster and more efficient for huge websites with millions of users.
 
