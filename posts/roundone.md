@@ -6,6 +6,7 @@ tags:
   - npm
   - yarn
   - React
+  - tests
 layout: layouts/post.njk
 ---
 
