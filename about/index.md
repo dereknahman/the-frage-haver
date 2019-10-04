@@ -16,3 +16,5 @@ I love problem-solving and learning new things.
 You can find me at kirstysimmonds@icloud.com or at [@keinegurke_](https://twitter.com/keinegurke_).
 
 (I don’t like cucumbers.)
+
+P.S. Frage is German for question.
