@@ -25,20 +25,20 @@ I'll give you an example. I have used ``Dimensions.get`` to ensure my fonts rend
 
 I've been storing the width and height of the screen in variables like so:
 
-``
+```javascript
 const screenWidth = Dimensions.get('screen').width
 const screenHeight = Dimensions.get('screen').height
-``
+```
 
 Then, in my StyleSheet, I've been doing this, and sometimes I divide the screenWidth by a certain number to achieve the result I want:
 
-``
+```javascript
   stopButtonText: {
     fontSize: 0.039 * screenWidth,
     color: '#EE7470',
     fontWeight: 'bold'
   }
-``
+```
 
 Can I tell you why exactly I chose the number 0.039? Nope. Does it work? Absolutely! 
 
