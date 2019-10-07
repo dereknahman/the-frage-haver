@@ -5,6 +5,7 @@ date: 2019-10-07
 tags:
   - react native
   - android
+  - responsive design
 layout: layouts/post.njk
 ---
 
