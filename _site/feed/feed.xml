@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>the frage haver</title>
+	<subtitle>I am asking and answering questions about programming.</subtitle>
+	<link href="https://myurl.com/feed/feed.xml" rel="self"/>
+	<link href="https://thefragehaver.com/"/>
+	<updated>2019-12-08T01:00:00+01:00</updated>
+	<id>https://myurl.com/</id>
+	<author>
+		<name>Kirsty Simmonds</name>
+		<email>kirstysimmonds@icloud.com</email>
+	</author>
+	
+	<entry>
+		<title>hello, world!</title>
+		<link href="https://thefragehaver.com/posts/firstpost/"/>
+		<updated>2019-07-29T02:00:00+02:00</updated>
+		<id>https://thefragehaver.com/posts/firstpost/</id>
+		<content type="html">&lt;p&gt;I started this blog for a few reasons:&lt;/p&gt;
+&lt;p&gt;👉🏻 To record questions I have about the new technologies I’m learning.&lt;/p&gt;
+&lt;p&gt;👉🏻 To publicly answer these questions so that others might learn from them too.&lt;/p&gt;
+&lt;p&gt;👉🏻 To keep a record of my progresss as I &lt;s&gt;work at becoming&lt;/s&gt; become a better developer.&lt;/p&gt;
+&lt;p&gt;The format is simple.&lt;/p&gt;
+&lt;p&gt;I’m going to record the questions that arise as I bash my head against new concepts and languages, and I’ll answer each one of them here.&lt;/p&gt;
+&lt;p&gt;The shape of this blog will remain the same, but the subject matter will change over time.&lt;/p&gt;
+&lt;h2 id=&quot;i%E2%80%99m-really-excited!&quot;&gt;I’m really excited! &lt;a class=&quot;direct-link&quot; href=&quot;#i%E2%80%99m-really-excited!&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Disclaimer: I’m a career-changer bootcamp grad and I wrote my first line of code about eight months ago. I’ve worked hard in that time but I’m by no means an expert, so these questions are coming from a code newbie. You might find this blog pedestrian if you’re an expert, in which case: bite me!&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>round one</title>
+		<link href="https://thefragehaver.com/posts/roundone/"/>
+		<updated>2019-07-30T02:00:00+02:00</updated>
+		<id>https://thefragehaver.com/posts/roundone/</id>
+		<content type="html">&lt;h2 id=&quot;what-is-npm%3F-what-is-yarn%3F-what%E2%80%99s-the-difference%3F&quot;&gt;What is npm? What is yarn? What’s the difference? &lt;a class=&quot;direct-link&quot; href=&quot;#what-is-npm%3F-what-is-yarn%3F-what%E2%80%99s-the-difference%3F&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Both of these things came up repeatedly while I was looking at React. So:&lt;/p&gt;
+&lt;p&gt;npm is a package manager for Node.js. Node.js was invented because we needed a way to run JavaScript on our machines in standalone applications, rather than just in the browser (i.e. Chrome, Firefox…). npm does create some basic directory structures and organisation, but its main purpose is automated dependency and package management. The user can specify their project’s dependencies (i.e. the specific versions of the specific technologies required to make their project run) in the &lt;code&gt;package-lock.json&lt;/code&gt; file so that anyone else jumping into the project can simply run npm install and have all the correct dependencies ready to go.&lt;/p&gt;
+&lt;p&gt;Yarn is essentially the same thing. It is an abstraction layer developed over npm and they are both using the NPM registry. Yarn uses &lt;code&gt;yarn.lock&lt;/code&gt; to define and install dependencies for projects. Yarn used to be much faster than npm but isn’t any more.&lt;/p&gt;
+&lt;p&gt;Yarn comes up a lot in the React tutorials I’m doing, as does npm. Anyway, I could bang on all day about this because lots of people on the internet have opinions, but I won’t. There&#39;s your summary!&lt;/p&gt;
+&lt;h2 id=&quot;what-are-the-advantages-and-disadvantages-of-component-based-apps%3F&quot;&gt;What are the advantages and disadvantages of component-based apps? &lt;a class=&quot;direct-link&quot; href=&quot;#what-are-the-advantages-and-disadvantages-of-component-based-apps%3F&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Advantages:&lt;/p&gt;
+&lt;p&gt;Component-based architecture turns common use cases into reusable modules of code so that developers don&#39;t have to reinvent the wheel, and can simply use and re-use code as it&#39;s needed. This is super handy with websites such as Facebook that have several dynamic elements (chat boxes, news feed, notifications, etc) on the page which need to be updated independently from one another.&lt;/p&gt;
+&lt;p&gt;Components can be faster and more efficient for huge websites with millions of users.&lt;/p&gt;
+&lt;p&gt;Disadvantages:&lt;/p&gt;
+&lt;p&gt;Component-based development can lead to big, unwieldy, polluted web applications. I&#39;ve seen a few developers complain about over-engineering, and the way some people use React for simple blogs about their cat which would be must better served by some HTML/CSS (hi Charlie!).&lt;/p&gt;
+&lt;h2 id=&quot;what-are-the-main-types-of-tests%3F&quot;&gt;What are the main types of tests? &lt;a class=&quot;direct-link&quot; href=&quot;#what-are-the-main-types-of-tests%3F&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Unit testing&lt;/p&gt;
+&lt;p&gt;This is where you break code down into pieces and subject each little piece to a series of tests. They run periodically, often after changes to the source code. They don&#39;t depend on outside systems, only their tiny little self-contained ecosystems.&lt;/p&gt;
+&lt;p&gt;Integration testing&lt;/p&gt;
+&lt;p&gt;Unlike unit tests, integration tests are designed to check that different little code ecosystems work well &lt;em&gt;with each other&lt;/em&gt;. They often require database instances and hardware, and are generally more of a pain in the arse if youre a newbie. You needn&#39;t be afraid of them though, because to write code is to test code, and over time you will get better at it.&lt;/p&gt;
+&lt;p&gt;System testing&lt;/p&gt;
+&lt;p&gt;So you&#39;ve done unit tests to check the code can work by itself, integration tests to check that the units of code can play nicely and groups, and now you&#39;re on to system tests. You&#39;re testing a complete, integrated system to evaluate its compliance with the specified requirements of the project.&lt;/p&gt;
+&lt;p&gt;Acceptance testing&lt;/p&gt;
+&lt;p&gt;Here you&#39;ll evaluate the system’s compliance with the business requirements and assess whether it is acceptable for delivery. Once you&#39;re at this stage you&#39;ve got a functioning application in front of you that&#39;s almost ready for the world. Clever clogs!&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>round two</title>
+		<link href="https://thefragehaver.com/posts/roundtwo/"/>
+		<updated>2019-08-19T02:00:00+02:00</updated>
+		<id>https://thefragehaver.com/posts/roundtwo/</id>
+		<content type="html">&lt;h2 id=&quot;christ-alive&quot;&gt;CHRIST ALIVE &lt;a class=&quot;direct-link&quot; href=&quot;#christ-alive&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This is just going to be a quick warming-up-my-tires post with a couple updates and some tips.&lt;/p&gt;
+&lt;p&gt;I&#39;ve spent this past month making an Android MVP in React Native, despite not knowing React Native. I was hired as a junior Ruby developer. It has certainly been A Time in My Life.&lt;/p&gt;
+&lt;p&gt;I&#39;ve managed it so far, though! And a lot of questions popped up along the way. I had planned to put these questions up on here as they arose, but, to be honest, between learning a whole new framework/way of working/twice-weekly German lessons, I found that blogging encroached on precious crying in the shower time. But I&#39;m doing it now.&lt;/p&gt;
+&lt;h2 id=&quot;so-now-i-work-in-react-native&quot;&gt;So now I work in React Native &lt;a class=&quot;direct-link&quot; href=&quot;#so-now-i-work-in-react-native&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;One of the lovely things about React Native is that, unlike Rails, which is what I was used to, there isn&#39;t a ruthlessly enforced file structure. The upside here is, if you know what you&#39;re doing, you can arrange the project&#39;s architecture according to your own judgement. The downside is that, if you don&#39;t know what you&#39;re doing (hi), you&#39;re spoiled for choice, you don&#39;t have a clue where to start, it&#39;s late, you&#39;re tired, you have no idea how to make the bastard thing scaleable, and you start to wish you&#39;d listened to your mother when she was pushing you into law school.&lt;/p&gt;
+&lt;p&gt;Before I begin answering questions, I should tell you that all my experience is working with the React Native CLI for Android. There is another option, which is to use Expo. They each have their merits and demerits and &lt;a href=&quot;https://facebook.github.io/react-native/docs/getting-started&quot;&gt;you can read about them in the documentation here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;what&#39;s-the-best-way-to-start-my-project%3F&quot;&gt;What&#39;s the best way to start my project? &lt;a class=&quot;direct-link&quot; href=&quot;#what&#39;s-the-best-way-to-start-my-project%3F&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I&#39;ve been using &lt;code&gt;react-native init &amp;lt;project_name&amp;gt;&lt;/code&gt; to start my Android projects so that I can take advantage of the &lt;code&gt;node_modules&lt;/code&gt; files. This method was recommended by my fantastic coding coach Emma, who says that doing so means that I can create native Android or iOS code and events which I can then bridge to React Native for use on the JavaScript side.&lt;/p&gt;
+&lt;p&gt;Using &lt;code&gt;react-native init&lt;/code&gt; also means that I can integrate third party software that uses the &lt;code&gt;node_modules&lt;/code&gt; for bridging components and functionality, whereas, if I were to use Expo, I&#39;d be restricted to the baked-in components they provide. So using &lt;code&gt;react-native init&lt;/code&gt; is altogether more flexible for developers, but it&#39;s fine to use Expo if you want some instant gratification. Just be aware that one is more limiting than the other in terms of functionality.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://facebook.github.io/react-native/docs/getting-started&quot;&gt;Have a wee look at the docs&lt;/a&gt; if you want to know more.&lt;/p&gt;
+&lt;h2 id=&quot;how-can-i-learn-about-navigation%2C-cos-i-don&#39;t-see-it-in-the-main-docs%3F&quot;&gt;How can I learn about navigation, cos I don&#39;t see it in the main docs? &lt;a class=&quot;direct-link&quot; href=&quot;#how-can-i-learn-about-navigation%2C-cos-i-don&#39;t-see-it-in-the-main-docs%3F&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I&#39;ve been using &lt;a href=&quot;https://reactnavigation.org/&quot;&gt;React Navigation&lt;/a&gt;. There is also &lt;a href=&quot;https://wix.github.io/react-native-navigation/#/&quot;&gt;React Native Navigation&lt;/a&gt;. &lt;a href=&quot;https://blog.logrocket.com/navigating-react-native-apps-using-react-navigation/&quot;&gt;This person has written about what they are and how to get started&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I actually found the React Navigation docs to be quite hard to use, as a newbie. I had to supplement my learning with fiddling with &lt;a href=&quot;https://www.udemy.com/course/react-native-the-practical-guide/&quot;&gt;this course on Udemy&lt;/a&gt; and &lt;a href=&quot;https://www.manning.com/books/react-native-in-action&quot;&gt;Nader Dabit&#39;s fabulously helpful book on React Native&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;YouTube saved my life a few times. &lt;a href=&quot;https://www.youtube.com/channel/UCiNWv52iO_OAdZ12kslG4Cg&quot;&gt;This guy is great&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;that&#39;s-it-for-now&quot;&gt;That&#39;s it for now &lt;a class=&quot;direct-link&quot; href=&quot;#that&#39;s-it-for-now&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I&#39;m looking forward to reviving this thing and putting up more regular posts. It&#39;ll be React Native- and Rust-focused for the next few months because of work/a Rust side project I&#39;m doing with a pal.&lt;/p&gt;
+&lt;p&gt;Bye bye!&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>round three</title>
+		<link href="https://thefragehaver.com/posts/roundthree/"/>
+		<updated>2019-10-07T02:00:00+02:00</updated>
+		<id>https://thefragehaver.com/posts/roundthree/</id>
+		<content type="html">&lt;h2 id=&quot;responsive-design&quot;&gt;RESPONSIVE DESIGN &lt;a class=&quot;direct-link&quot; href=&quot;#responsive-design&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;As I learned a couple of weeks ago, &#39;responsive design&#39; is something that one should prioritise if they want a happy life. I spent a solid month building my app on a single Samsung emulator and thought I was doing a good job until my boss asked me to open the app in a much larger emulator. Oh boy! Suddenly my carefully centered views were running halfway off the screen, mountains crumbled, seas roared, and I had to stay late to fix it.&lt;/p&gt;
+&lt;p&gt;So, responsive design. It&#39;s important.&lt;/p&gt;
+&lt;h2 id=&quot;how-can-i-make-sure-that-my-components-are-the-same-size-on-all-devices%3F&quot;&gt;How can I make sure that my components are the same size on all devices? &lt;a class=&quot;direct-link&quot; href=&quot;#how-can-i-make-sure-that-my-components-are-the-same-size-on-all-devices%3F&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Honestly, this is a question I could use some answers to. I&#39;m going to tell you what I&#39;ve been doing and hopefully someone will see this on Twitter and glide in with some helpful suggestions.&lt;/p&gt;
+&lt;p&gt;I have been (over?)relying on &lt;code&gt;Dimensions.get&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;I&#39;ll give you an example. I have used &lt;code&gt;Dimensions.get&lt;/code&gt; to ensure my fonts render in sizes proportionate to the size of the screens on which they are displayed.&lt;/p&gt;
+&lt;p&gt;I&#39;ve been storing the width and height of the screen in variables like so:&lt;/p&gt;
+&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; screenWidth &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Dimensions&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;screen&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;width&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; screenHeight &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Dimensions&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;screen&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;height&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Then, in my StyleSheet, I&#39;ve been doing this, and sometimes I divide the screenWidth by a certain number to achieve the result I want:&lt;/p&gt;
+&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;  stopButtonText&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;    fontSize&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.039&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; screenWidth&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;    color&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;#EE7470&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;    fontWeight&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;bold&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Can I tell you why exactly I chose the number 0.039? Nope. Does it work? Absolutely!&lt;/p&gt;
+&lt;p&gt;They don&#39;t make very much of &lt;code&gt;Dimensions.get&lt;/code&gt; in the official documentation. As far as I can see, &lt;a href=&quot;https://facebook.github.io/react-native/docs/dimensions&quot;&gt;this is the only mention of it&lt;/a&gt;, but I might be wrong. I know that they&#39;re in the process of revamping the documentation to make it more user-friendly so I really wouldn&#39;t be surprised if things changed for the better in the coming months, but for now this is a bit of a pain point.&lt;/p&gt;
+&lt;h2 id=&quot;and-that&#39;s-all-for-now&quot;&gt;AND THAT&#39;S ALL FOR NOW &lt;a class=&quot;direct-link&quot; href=&quot;#and-that&#39;s-all-for-now&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;It&#39;s a quick one today.&lt;/p&gt;
+&lt;p&gt;&amp;lt;3&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>personal project == flashcards!</title>
+		<link href="https://thefragehaver.com/posts/roundfour/"/>
+		<updated>2019-12-08T01:00:00+01:00</updated>
+		<id>https://thefragehaver.com/posts/roundfour/</id>
+		<content type="html">&lt;h2 id=&quot;it&#39;s-been-a-while&quot;&gt;It&#39;s been a while &lt;a class=&quot;direct-link&quot; href=&quot;#it&#39;s-been-a-while&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I built an entire React Native app, almost entirely alone, and now it&#39;s winging its way to the Google Play store. It&#39;s for my day job and I can&#39;t really talk about it in any great depth other than to say the MVP is complete. Woo!&lt;/p&gt;
+&lt;p&gt;I was working so hard on it that I neglected to update this blog, which is the place I was supposed to be making a record of my wins along the way. I let time get away from me a little here, but that&#39;s OK. I have an idea.&lt;/p&gt;
+&lt;h2 id=&quot;flashcards&quot;&gt;FLASHCARDS &lt;a class=&quot;direct-link&quot; href=&quot;#flashcards&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I&#39;ve been learning German on and off since May, and I&#39;ve been learning React Native since August. Both of these things have been competing for my attention lately and I have often wished for a beautiful and reliable repetitive learning app so that I can get my head around the horrifying German cases &lt;em&gt;and&lt;/em&gt; skill up on programming concepts more broadly, with specific reference to React Native at the moment.&lt;/p&gt;
+&lt;p&gt;So I&#39;m going to combine the two. Over the next few months I&#39;m going to build Flashcards for iOS in React Native. I plan to play around with fun things such as animation APIs and will no doubt rely on Nader Dabit&#39;s wonderful book on React Native to guide me along.&lt;/p&gt;
+&lt;p&gt;I&#39;ll document the process here for anyone that&#39;s interested. I have built a project in RN now, so I know my way around a little, but I&#39;m by no means an expert.&lt;/p&gt;
+&lt;h2 id=&quot;starting-up&quot;&gt;Starting up &lt;a class=&quot;direct-link&quot; href=&quot;#starting-up&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I followed the &lt;a href=&quot;https://facebook.github.io/react-native/docs/getting-started&quot;&gt;Getting Started section of the official docs&lt;/a&gt; and adjusted the settings for the React Native CLI Quickstart, the macOS development settings and the iOS target OS settings.&lt;/p&gt;
+&lt;p&gt;I&#39;ll be posting again soon to talk about how I plan to approach the project, the tools I&#39;ll be using, and anything else that springs to mind.&lt;/p&gt;
+&lt;h2 id=&quot;bye-bye!&quot;&gt;Bye bye! &lt;a class=&quot;direct-link&quot; href=&quot;#bye-bye!&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+</content>
+	</entry>
+</feed>
