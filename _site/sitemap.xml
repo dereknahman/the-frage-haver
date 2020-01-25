@@ -37,22 +37,7 @@
   </url>
   
   <url>
-    <loc>https://thefragehaver.com/tags/tests/</loc>
-    <lastmod>2019-08-19</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thefragehaver.com/tags/React/</loc>
-    <lastmod>2019-08-19</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thefragehaver.com/tags/react%20native/</loc>
-    <lastmod>2019-08-19</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thefragehaver.com/tags/android/</loc>
+    <loc>https://thefragehaver.com/tags/yarn/</loc>
     <lastmod>2019-08-19</lastmod>
   </url>
   
@@ -77,7 +62,22 @@
   </url>
   
   <url>
-    <loc>https://thefragehaver.com/tags/yarn/</loc>
+    <loc>https://thefragehaver.com/tags/android/</loc>
+    <lastmod>2019-08-19</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thefragehaver.com/tags/React/</loc>
+    <lastmod>2019-08-19</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thefragehaver.com/tags/tests/</loc>
+    <lastmod>2019-08-19</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thefragehaver.com/tags/react%20native/</loc>
     <lastmod>2019-08-19</lastmod>
   </url>
   

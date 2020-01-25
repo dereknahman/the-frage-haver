@@ -9,9 +9,11 @@ layout: layouts/post.njk
 
 ### I'm quite annoyed at myself, and not entirely without reason.
 
-I started this blog to track side-projects and independent learning. I naffed this up on the following count.
+I started this blog to track side-projects and independent learning. I naffed this up on the following count:
 
-**Good luck having time for side-projects when you're attending German classes two evenings per week, have a demanding job and for some reason insist on having """friends""" who you """see on a regular basis""" for """non-marketable enjoyment""". I do quite like sleeping sometimes, too. And reading books not about programming. Being outside. That stuff.**
+Good luck having time for side-projects when you're attending German classes two evenings per week, have a demanding job and for some reason insist on having """friends""" who you """see on a regular basis""" for """non-marketable enjoyment""". I do quite like sleeping sometimes, too. And reading books not about programming. Being outside. That stuff.
+
+### Not working yourself into misery is good!
 
 But German class is over now and I won't be going back to learning in a formal environment. There's more time. Work is even *more* demanding than it has been in previous months but it's not a disaster, mostly because I have the psychic cushion of looking for new work to fall back on. Now I have some time for messing about with JavaScript in my spare time, which, to be fair, I do really enjoy when it doesn't feel like yet another obligation.
 
