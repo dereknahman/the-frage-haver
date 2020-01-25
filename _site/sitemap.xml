@@ -37,12 +37,27 @@
   </url>
   
   <url>
-    <loc>https://thefragehaver.com/tags/tests/</loc>
+    <loc>https://thefragehaver.com/tags/responsive%20design/</loc>
     <lastmod>2019-08-19</lastmod>
   </url>
   
   <url>
-    <loc>https://thefragehaver.com/tags/responsive%20design/</loc>
+    <loc>https://thefragehaver.com/tags/react%20native/</loc>
+    <lastmod>2019-08-19</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thefragehaver.com/tags/android/</loc>
+    <lastmod>2019-08-19</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thefragehaver.com/tags/first-post/</loc>
+    <lastmod>2019-08-19</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thefragehaver.com/tags/tests/</loc>
     <lastmod>2019-08-19</lastmod>
   </url>
   
@@ -62,26 +77,6 @@
   </url>
   
   <url>
-    <loc>https://thefragehaver.com/tags/android/</loc>
-    <lastmod>2019-08-19</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thefragehaver.com/tags/react%20native/</loc>
-    <lastmod>2019-08-19</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thefragehaver.com/tags/ios/</loc>
-    <lastmod>2019-08-19</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thefragehaver.com/tags/first-post/</loc>
-    <lastmod>2019-08-19</lastmod>
-  </url>
-  
-  <url>
     <loc>https://thefragehaver.com/about/</loc>
     <lastmod>2019-10-04</lastmod>
   </url>
@@ -89,10 +84,5 @@
   <url>
     <loc>https://thefragehaver.com/posts/roundthree/</loc>
     <lastmod>2019-10-07</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thefragehaver.com/posts/roundfour/</loc>
-    <lastmod>2019-12-08</lastmod>
   </url>
 </urlset>
