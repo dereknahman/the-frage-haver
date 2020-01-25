@@ -4,7 +4,7 @@
 	<subtitle>I am asking and answering questions about programming.</subtitle>
 	<link href="https://myurl.com/feed/feed.xml" rel="self"/>
 	<link href="https://thefragehaver.com/"/>
-	<updated>2019-10-07T02:00:00+02:00</updated>
+	<updated>2020-01-25T01:00:00+01:00</updated>
 	<id>https://myurl.com/</id>
 	<author>
 		<name>Kirsty Simmonds</name>
@@ -103,6 +103,25 @@
 &lt;h2 id=&quot;and-that&#39;s-all-for-now&quot;&gt;AND THAT&#39;S ALL FOR NOW &lt;a class=&quot;direct-link&quot; href=&quot;#and-that&#39;s-all-for-now&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;It&#39;s a quick one today.&lt;/p&gt;
 &lt;p&gt;&amp;lt;3&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>permission to be crap</title>
+		<link href="https://thefragehaver.com/posts/annoyed/"/>
+		<updated>2020-01-25T01:00:00+01:00</updated>
+		<id>https://thefragehaver.com/posts/annoyed/</id>
+		<content type="html">&lt;h3 id=&quot;i&#39;m-quite-annoyed-at-myself%2C-and-not-entirely-without-reason.&quot;&gt;I&#39;m quite annoyed at myself, and not entirely without reason. &lt;a class=&quot;direct-link&quot; href=&quot;#i&#39;m-quite-annoyed-at-myself%2C-and-not-entirely-without-reason.&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;I started this blog to track side-projects and independent learning. I naffed this up on the following count.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Good luck having time for side-projects when you&#39;re attending German classes two evenings per week, have a demanding job and for some reason insist on having &amp;quot;&amp;quot;&amp;quot;friends&amp;quot;&amp;quot;&amp;quot; who you &amp;quot;&amp;quot;&amp;quot;see on a regular basis&amp;quot;&amp;quot;&amp;quot; for &amp;quot;&amp;quot;&amp;quot;non-marketable enjoyment&amp;quot;&amp;quot;&amp;quot;. I do quite like sleeping sometimes, too. And reading books not about programming. Being outside. That stuff.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;But German class is over now and I won&#39;t be going back to learning in a formal environment. There&#39;s more time. Work is even &lt;em&gt;more&lt;/em&gt; demanding than it has been in previous months but it&#39;s not a disaster, mostly because I have the psychic cushion of looking for new work to fall back on. Now I have some time for messing about with JavaScript in my spare time, which, to be fair, I do really enjoy when it doesn&#39;t feel like yet another obligation.&lt;/p&gt;
+&lt;h3 id=&quot;but.&quot;&gt;But. &lt;a class=&quot;direct-link&quot; href=&quot;#but.&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;I can&#39;t be bothered to do something elaborate. I&#39;ve realised I have a terrible habit of setting the bar enormously high, inevitably not meeting it, despairing and suffering from mild to moderate psychological bruising for a short time afterwards. And I want to keep seeing my friends and reading novels and staring cross-eyed into thin air because I am a human being and not a node module with legs and fantastic hair.&lt;/p&gt;
+&lt;p&gt;Part of the reason why I set such horrible, demanding targets for myself is that I am incredibly uncomfortable with being crap at things, and having other people see me being crap at things. I am critical of capitalism in the streets yet I push myself forward with enormous force on the basis of personal betterment at the expense of mental health in the sheets. It&#39;s not good. This mindset is also wholly incompatible with learning how to program (and enjoying it!) and I can see that I need to sort it out.&lt;/p&gt;
+&lt;h3 id=&quot;so-i-have-given-myself-permission-to-be-rubbish&quot;&gt;So I have given myself permission to be rubbish &lt;a class=&quot;direct-link&quot; href=&quot;#so-i-have-given-myself-permission-to-be-rubbish&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;I&#39;m going to build some vanilla JS/HTML/CSS things over the next couple of months, for fun. They&#39;re probably going to be silly, like &lt;a href=&quot;https://dereknahman.github.io/steve-mcfaddens-theremin/&quot;&gt;Steve McFadden&#39;s Magic Theremin&lt;/a&gt;. They will all be relatively simple. I hope to learn a lot. I hope you find it interesting.&lt;/p&gt;
+&lt;p&gt;I&#39;ll be posting Ayn Rand&#39;s Savings Calculator in the next couple of weeks.&lt;/p&gt;
+&lt;h3 id=&quot;in-a-bit-%3C3&quot;&gt;In a bit &amp;lt;3 &lt;a class=&quot;direct-link&quot; href=&quot;#in-a-bit-%3C3&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
 </content>
 	</entry>
 </feed>
