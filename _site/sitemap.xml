@@ -52,21 +52,6 @@
   </url>
   
   <url>
-    <loc>https://thefragehaver.com/tags/react%20native/</loc>
-    <lastmod>2020-05-17</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thefragehaver.com/tags/android/</loc>
-    <lastmod>2020-05-17</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thefragehaver.com/tags/responsive%20design/</loc>
-    <lastmod>2020-05-17</lastmod>
-  </url>
-  
-  <url>
     <loc>https://thefragehaver.com/tags/npm/</loc>
     <lastmod>2020-05-17</lastmod>
   </url>
@@ -83,6 +68,21 @@
   
   <url>
     <loc>https://thefragehaver.com/tags/tests/</loc>
+    <lastmod>2020-05-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thefragehaver.com/tags/react%20native/</loc>
+    <lastmod>2020-05-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thefragehaver.com/tags/android/</loc>
+    <lastmod>2020-05-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thefragehaver.com/tags/responsive%20design/</loc>
     <lastmod>2020-05-17</lastmod>
   </url>
 </urlset>

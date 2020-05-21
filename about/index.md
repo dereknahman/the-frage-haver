@@ -15,8 +15,6 @@ I work at an agency with primarily third-sector clients, which I love.
 
 I love problem-solving and learning new things.
 
-You can find me at kirstysimmonds@icloud.com or at [@keinegurke\_](https://twitter.com/keinegurke_).
-
-(I don’t like cucumbers.)
+You can find me at kirstysimmonds@icloud.com or at [@torahwilcox](https://twitter.com/torahwilcox).
 
 P.S. Frage is German for question.
