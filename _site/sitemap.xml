@@ -47,6 +47,11 @@
   </url>
   
   <url>
+    <loc>https://thefragehaver.com/tags/first-post/</loc>
+    <lastmod>2020-05-17</lastmod>
+  </url>
+  
+  <url>
     <loc>https://thefragehaver.com/tags/npm/</loc>
     <lastmod>2020-05-17</lastmod>
   </url>
@@ -78,11 +83,6 @@
   
   <url>
     <loc>https://thefragehaver.com/tags/responsive%20design/</loc>
-    <lastmod>2020-05-17</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thefragehaver.com/tags/first-post/</loc>
     <lastmod>2020-05-17</lastmod>
   </url>
 </urlset>
