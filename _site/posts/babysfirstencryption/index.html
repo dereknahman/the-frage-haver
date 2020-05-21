@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>insecurity</title>
+    <meta name="Description" content="what even is md5 doe?">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="the frage haver">
+    <link rel="shortcut icon" type="image/png" href="/img/favicon.png"/>
+  </head>
+  <body>
+    <header>
+      <h1 class="home"><a href="/">the frage haver</a></h1>
+      <ul class="nav"><li class="nav-item"><a href="/">home</a></li><li class="nav-item"><a href="/posts/">archive</a></li><li class="nav-item"><a href="/about/">about</a></li></ul>
+    </header>
+
+    <main class="tmpl-post">
+
+      <h1>insecurity</h1>
+
+<h2 id="i-didn't-know-anything-about-encryption-when-i-started-writing-this">i didn't know anything about encryption when i started writing this <a class="direct-link" href="#i-didn't-know-anything-about-encryption-when-i-started-writing-this">#</a></h2>
+<p>I didn't know anything about security, really. I probably should have, but I didn't. Lots of interesting people with part-shaved, multi-coloured hair on Twitter know about security and they're super smart and cool but I never understand what they're talking about and merely look on in awe while they say hackerish sounding things before going back to fixing the styling on my buttons.</p>
+<p>My CTO at work recently asked me to assess how secure the password-handling was in a React Native application written by a third party. I looked at the Login.js component, which contained the relevant logic, and could see that the password wasn't hashed anywhere, but that's about it. I definitely didn't feel qualified to comment on the code from a security standpoint at the time.</p>
+<p>My CTO then followed up with a recommendation:</p>
+<blockquote>
+<p><strong>&quot;If you want a fun trip down a rabbit hole, look up md5, sha-1 and bcrypt password hashing. Also why is salting important? And what does Rails use?&quot;</strong></p>
+</blockquote>
+<p>So off I went.</p>
+<h2 id="md5">md5 <a class="direct-link" href="#md5">#</a></h2>
+<p>I'll start with the definition first, and then we can break it down together.</p>
+<p><strong>MD5 hash functions are a one-way cryptographic function that accepts a message of any length and returns as output a fixed-length digest value to be used for authenticating the original message</strong></p>
+<p>But what's a hash ???</p>
+<p>A 'one-way cryptographic function' ???</p>
+<p>What's a fixed length digest value ???</p>
+<p>Can we see an example in JavaScript ???</p>
+<h2 id="sha-1">sha-1 <a class="direct-link" href="#sha-1">#</a></h2>
+<h2 id="bcrypt">bcrypt <a class="direct-link" href="#bcrypt">#</a></h2>
+<h2 id="why-is-salting-important%3F">why is salting important? <a class="direct-link" href="#why-is-salting-important%3F">#</a></h2>
+<h2 id="what-does-rails-use%3F">what does rails use? <a class="direct-link" href="#what-does-rails-use%3F">#</a></h2>
+
+
+<p><a href="/">← Home</a></p>
+
+    </main>
+
+    <footer></footer>
+
+    <!-- Current page: /posts/babysfirstencryption/ -->
+  </body>
+</html>

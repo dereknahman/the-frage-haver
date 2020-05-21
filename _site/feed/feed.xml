@@ -4,7 +4,7 @@
 	<subtitle>Asking and answering questions about programming.</subtitle>
 	<link href="https://myurl.com/feed/feed.xml" rel="self"/>
 	<link href="https://thefragehaver.com/"/>
-	<updated>2020-05-20T01:00:00+01:00</updated>
+	<updated>2020-05-24T01:00:00+01:00</updated>
 	<id>https://myurl.com/</id>
 	<author>
 		<name>Kirsty Simmonds</name>
@@ -23,8 +23,6 @@
 &lt;p&gt;The format is simple.&lt;/p&gt;
 &lt;p&gt;I’m going to record the questions that arise as I bash my head against new concepts and languages, and I’ll answer each one of them here.&lt;/p&gt;
 &lt;p&gt;The shape of this blog will remain the same, but the subject matter will change over time.&lt;/p&gt;
-&lt;h2 id=&quot;i%E2%80%99m-really-excited!&quot;&gt;I’m really excited! &lt;a class=&quot;direct-link&quot; href=&quot;#i%E2%80%99m-really-excited!&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Disclaimer: I’m a career-changer bootcamp grad and I wrote my first line of code about eight months ago. I’ve worked hard in that time but I’m by no means an expert, so these questions are coming from a code newbie. You might find this blog pedestrian if you’re an expert, in which case: bite me!&lt;/p&gt;
 </content>
 	</entry>
 	
@@ -71,6 +69,33 @@
 &lt;li&gt;&lt;a href=&quot;https://www.learnenough.com/&quot;&gt;The Ruby on Rails course on Learn Enough&lt;/a&gt; by Michael Hartl. I&#39;ll be using Rails at work and I used this to really dig into it after learning it during my bootcamp a year ago. It&#39;s definitely worth the money and, as far as I can see, it&#39;s the best Rails course out there. And I have been through many of them.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;I hope you found some of this helpful! Feel free to get in touch @torahwilcox on Twitter if you have further questions and I&#39;ll do what I can.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>insecurity</title>
+		<link href="https://thefragehaver.com/posts/babysfirstencryption/"/>
+		<updated>2020-05-24T01:00:00+01:00</updated>
+		<id>https://thefragehaver.com/posts/babysfirstencryption/</id>
+		<content type="html">&lt;h2 id=&quot;i-didn&#39;t-know-anything-about-encryption-when-i-started-writing-this&quot;&gt;i didn&#39;t know anything about encryption when i started writing this &lt;a class=&quot;direct-link&quot; href=&quot;#i-didn&#39;t-know-anything-about-encryption-when-i-started-writing-this&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I didn&#39;t know anything about security, really. I probably should have, but I didn&#39;t. Lots of interesting people with part-shaved, multi-coloured hair on Twitter know about security and they&#39;re super smart and cool but I never understand what they&#39;re talking about and merely look on in awe while they say hackerish sounding things before going back to fixing the styling on my buttons.&lt;/p&gt;
+&lt;p&gt;My CTO at work recently asked me to assess how secure the password-handling was in a React Native application written by a third party. I looked at the Login.js component, which contained the relevant logic, and could see that the password wasn&#39;t hashed anywhere, but that&#39;s about it. I definitely didn&#39;t feel qualified to comment on the code from a security standpoint at the time.&lt;/p&gt;
+&lt;p&gt;My CTO then followed up with a recommendation:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&amp;quot;If you want a fun trip down a rabbit hole, look up md5, sha-1 and bcrypt password hashing. Also why is salting important? And what does Rails use?&amp;quot;&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;So off I went.&lt;/p&gt;
+&lt;h2 id=&quot;md5&quot;&gt;md5 &lt;a class=&quot;direct-link&quot; href=&quot;#md5&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I&#39;ll start with the definition first, and then we can break it down together.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;MD5 hash functions are a one-way cryptographic function that accepts a message of any length and returns as output a fixed-length digest value to be used for authenticating the original message&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;But what&#39;s a hash ???&lt;/p&gt;
+&lt;p&gt;A &#39;one-way cryptographic function&#39; ???&lt;/p&gt;
+&lt;p&gt;What&#39;s a fixed length digest value ???&lt;/p&gt;
+&lt;p&gt;Can we see an example in JavaScript ???&lt;/p&gt;
+&lt;h2 id=&quot;sha-1&quot;&gt;sha-1 &lt;a class=&quot;direct-link&quot; href=&quot;#sha-1&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;bcrypt&quot;&gt;bcrypt &lt;a class=&quot;direct-link&quot; href=&quot;#bcrypt&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;why-is-salting-important%3F&quot;&gt;why is salting important? &lt;a class=&quot;direct-link&quot; href=&quot;#why-is-salting-important%3F&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;what-does-rails-use%3F&quot;&gt;what does rails use? &lt;a class=&quot;direct-link&quot; href=&quot;#what-does-rails-use%3F&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 </content>
 	</entry>
 </feed>
