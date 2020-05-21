@@ -17,82 +17,72 @@
   </url>
   
   <url>
-    <loc>https://thefragehaver.com/posts/</loc>
-    <lastmod>2019-08-19</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thefragehaver.com/</loc>
-    <lastmod>2019-08-19</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thefragehaver.com/page-list/</loc>
-    <lastmod>2019-08-19</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thefragehaver.com/tags/</loc>
-    <lastmod>2019-08-19</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thefragehaver.com/tags/yarn/</loc>
-    <lastmod>2019-08-19</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thefragehaver.com/tags/responsive%20design/</loc>
-    <lastmod>2019-08-19</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thefragehaver.com/tags/first-post/</loc>
-    <lastmod>2019-08-19</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thefragehaver.com/tags/side%20projects/</loc>
-    <lastmod>2019-08-19</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thefragehaver.com/tags/npm/</loc>
-    <lastmod>2019-08-19</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thefragehaver.com/tags/android/</loc>
-    <lastmod>2019-08-19</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thefragehaver.com/tags/React/</loc>
-    <lastmod>2019-08-19</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thefragehaver.com/tags/tests/</loc>
-    <lastmod>2019-08-19</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thefragehaver.com/tags/react%20native/</loc>
-    <lastmod>2019-08-19</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thefragehaver.com/about/</loc>
-    <lastmod>2019-10-04</lastmod>
-  </url>
-  
-  <url>
     <loc>https://thefragehaver.com/posts/roundthree/</loc>
     <lastmod>2019-10-07</lastmod>
   </url>
   
   <url>
-    <loc>https://thefragehaver.com/posts/annoyed/</loc>
-    <lastmod>2020-01-25</lastmod>
+    <loc>https://thefragehaver.com/about/</loc>
+    <lastmod>2020-05-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thefragehaver.com/posts/</loc>
+    <lastmod>2020-05-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thefragehaver.com/</loc>
+    <lastmod>2020-05-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thefragehaver.com/page-list/</loc>
+    <lastmod>2020-05-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thefragehaver.com/tags/</loc>
+    <lastmod>2020-05-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thefragehaver.com/tags/npm/</loc>
+    <lastmod>2020-05-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thefragehaver.com/tags/yarn/</loc>
+    <lastmod>2020-05-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thefragehaver.com/tags/React/</loc>
+    <lastmod>2020-05-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thefragehaver.com/tags/tests/</loc>
+    <lastmod>2020-05-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thefragehaver.com/tags/react%20native/</loc>
+    <lastmod>2020-05-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thefragehaver.com/tags/android/</loc>
+    <lastmod>2020-05-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thefragehaver.com/tags/responsive%20design/</loc>
+    <lastmod>2020-05-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thefragehaver.com/tags/first-post/</loc>
+    <lastmod>2020-05-17</lastmod>
   </url>
 </urlset>
