@@ -2,7 +2,6 @@
   "title": "the frage haver",
   "url": "https://thefragehaver.com/",
   "description": "Asking and answering questions about programming.",
-  "og:image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/es-090517-thinking-face-emoji-1504643347.jpg?crop=1.00xw:1.00xh;0,0&resize=480:*",
   "feed": {
     "subtitle": "Asking and answering questions about programming.",
     "filename": "feed.xml",
