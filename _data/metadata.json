@@ -1,9 +1,9 @@
 {
   "title": "the frage haver",
   "url": "https://thefragehaver.com/",
-  "description": "I am asking and answering questions about programming.",
+  "description": "Asking and answering questions about programming.",
   "feed": {
-    "subtitle": "I am asking and answering questions about programming.",
+    "subtitle": "Asking and answering questions about programming.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "url": "https://myurl.com/feed/feed.xml",

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>the frage haver</title>
-	<subtitle>I am asking and answering questions about programming.</subtitle>
+	<subtitle>Asking and answering questions about programming.</subtitle>
 	<link href="https://myurl.com/feed/feed.xml" rel="self"/>
 	<link href="https://thefragehaver.com/"/>
 	<updated>2020-05-20T01:00:00+01:00</updated>
