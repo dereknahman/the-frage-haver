@@ -7,21 +7,6 @@
   </url>
   
   <url>
-    <loc>https://thefragehaver.com/posts/roundone/</loc>
-    <lastmod>2019-07-30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thefragehaver.com/posts/roundtwo/</loc>
-    <lastmod>2019-08-19</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thefragehaver.com/posts/roundthree/</loc>
-    <lastmod>2019-10-07</lastmod>
-  </url>
-  
-  <url>
     <loc>https://thefragehaver.com/about/</loc>
     <lastmod>2020-05-17</lastmod>
   </url>
@@ -52,37 +37,12 @@
   </url>
   
   <url>
-    <loc>https://thefragehaver.com/tags/npm/</loc>
+    <loc>https://thefragehaver.com/tags/job-search/</loc>
     <lastmod>2020-05-17</lastmod>
   </url>
   
   <url>
-    <loc>https://thefragehaver.com/tags/yarn/</loc>
-    <lastmod>2020-05-17</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thefragehaver.com/tags/React/</loc>
-    <lastmod>2020-05-17</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thefragehaver.com/tags/tests/</loc>
-    <lastmod>2020-05-17</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thefragehaver.com/tags/react%20native/</loc>
-    <lastmod>2020-05-17</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thefragehaver.com/tags/android/</loc>
-    <lastmod>2020-05-17</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thefragehaver.com/tags/responsive%20design/</loc>
-    <lastmod>2020-05-17</lastmod>
+    <loc>https://thefragehaver.com/posts/jobsearch/</loc>
+    <lastmod>2020-05-20</lastmod>
   </url>
 </urlset>
