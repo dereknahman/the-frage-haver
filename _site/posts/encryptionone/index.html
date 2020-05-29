@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>baby&#39;s first hash encryption</title>
+    <meta name="Description" content="a password hash with extra salt, please">
+    
+    <meta name="twitter:card" content="" />
+    <meta name="twitter:creator" content= />
+    <meta property="og:url" content="/posts/encryptionone/" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta name="twitter:image" content="" />
+    <meta property="og:image" content="" />
+    
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="the frage haver">
+    <link rel="shortcut icon" type="image/png" href="/img/favicon.png"/>
+  </head>
+  <body>
+    <header>
+      <h1 class="home"><a href="/">the frage haver</a></h1>
+      <ul class="nav"><li class="nav-item"><a href="/">home</a></li><li class="nav-item"><a href="/posts/">archive</a></li><li class="nav-item"><a href="/about/">about</a></li></ul>
+    </header>
+
+    <main class="tmpl-post">
+
+      <h1>baby&#39;s first hash encryption</h1>
+
+<h2 id="i-didn't-know-anything-about-encryption-when-i-started-writing-this">i didn't know anything about encryption when i started writing this <a class="direct-link" href="#i-didn't-know-anything-about-encryption-when-i-started-writing-this">#</a></h2>
+<p>I didn't know anything about security, really. I probably should have, but I didn't. Lots of interesting people with part-shaved, multi-coloured hair on Twitter know about security and they're super smart and cool but I never understand what they're talking about and merely look on in awe while they say hackerish sounding things before going back to fixing the styling on my buttons.</p>
+<p>My CTO at work recently asked me to assess how secure the password-handling was in a React Native application written by a third party. I looked at the Login.js component, which contained the relevant logic, and could see that the password wasn't hashed anywhere, but that's about it (I'll get to what hashing means in a sec). I definitely didn't feel qualified to comment on the code from a security standpoint at the time.</p>
+<p>My CTO then followed up with a recommendation:</p>
+<blockquote>
+<p><strong>&quot;If you want a fun trip down a rabbit hole, look up md5, sha-1 and bcrypt password hashing. Also why is salting important? And what does Rails use?&quot;</strong></p>
+</blockquote>
+<p>✨ So off I went. ✨</p>
+<h2 id="hash-functions%2C-generally">hash functions, generally <a class="direct-link" href="#hash-functions%2C-generally">#</a></h2>
+<p>In order to hash a password, one must use a hash function.</p>
+<p>I'll start with the definition of a hash function first, and then we can break it down together.</p>
+<p><strong>Hash functions are one-way cryptographic functions that accept a message of any length and return as output a fixed-length value to be used for authenticating the original message</strong></p>
+<p>Let's go through some of these terms and define what they mean.</p>
+<ul>
+<li>A <strong>hash function</strong> maps arbitrary-sized input to a fixed-site output through a process known as compression. Unlike typical data compression (i.e. the process that takes place when you package up a .zip file), compression in this case refers to non-invertible data mapping.</li>
+<li>When a function is <strong>'one way'</strong> it essentially means that it is nontrivial (a computer science term people use when referring to things that are not simple/easy to perform) to learn anything useful about the input of the function given the output.</li>
+</ul>
+<p>The ideal hash function is:</p>
+<ul>
+<li>One-way, which we covered a moment ago.</li>
+<li>Collision-resistant, which means that, given an output from a hash, finding another input that produces the same output (this is the part that's called collision) is nontrivial.</li>
+</ul>
+<p>A hash function is considered to be weak when it allows for two files to have the same 'digest', or output, because digital fingerprints created with it can be forged, and are therefore cryptographically broken.</p>
+<h2 id="md5-hash-functions">md5 hash functions <a class="direct-link" href="#md5-hash-functions">#</a></h2>
+<p>MD5 (or, to use its full name, Message-Digest algorithm 5) algorithms produce 128-bit hash values. It was invented by Ronald L. Rivest of MIT who also invented MD2, MD4 and MD6, which we won't be going into today. You can generate an MD5 hash using <a href="https://www.miraclesalad.com/webtools/md5.php">this tool</a>. Note that the output is the same length no matter the size of the input, and that the entire hash changes if you change only a single character in the input.</p>
+<p>MD5 has been proven to be insecure in a number of ways. Firstly, it isn't collision-resistant, and secondly, according to the lovely people at <a href="https://www.youtube.com/watch?v=b4b8ktEV4Bg">Computerphile</a>, it is fairly straightforward to simply use Google to break the hashes. One can Google a hash and fairly easily find the corresponding input values that were employed to generate it in the first place, which utterly undermines any illusion of security.</p>
+<p>MD5 is now considered broken and no one should be using it.</p>
+<h2 id="sha-1">sha-1 <a class="direct-link" href="#sha-1">#</a></h2>
+<p>SHA-1 was developed by the National Security Agency (NSA) as part of their Capstone project, which aimed to develop cryptography standards for public and government use, according to <a href="https://en.wikipedia.org/wiki/Capstone_(cryptography)">Wikipedia</a>. They are 160 bits long, and you can generate one <a href="http://www.sha1-online.com/">here</a>. This hash function also produces the same length of output no matter the length of the input, just like MD5.</p>
+<p>SHA-1 is most often used for checking whether a file is unaltered. It does so by producing a hash value before the file is transmitted, and then again once it reaches its destination. The file can only be considered genuine if both hash values are identical.</p>
+<p>SHA-1 hashes date back to 1995 and have been known to be vulnerable since 2005. As of version 56 of Google Chrome, which was released in 2017, the browser has marked all SHA-1-signed certificates as unsafe, and other major browsers followed suit. Researchers from the CWI Institute in Amsterdam and Google generated the first collision in SHA-1 history in 2017, and it is now considered broken too. But SHA-1 (sometimes known as SHA-256) had already been phased out in favour of SHA-2 in early 2016, before Google's discovery, so faith in it was already thin on the ground.</p>
+<h2 id="what-is-a-salt%3F">what is a salt? <a class="direct-link" href="#what-is-a-salt%3F">#</a></h2>
+<p>Salts are data added to hash outputs to make them unique even if the input values are identical. Take passwords, for example. In order to hack into somebody's account, attackers can generate a list of common passwords and their corresponding hash values. Comparing the two will eventually reveal the passwords to the attackers if there are matches.</p>
+<p>If a user's password is stored with a unique salt, however, then any pre-computation-based attacks (like the scenario I just described) targeting unsalted password hashes, or targeting an account with a different salt, will not crack the user's password. If the salt is long enough and sufficiently random, it is incredibly unlikely that an attacker will be able to crack the password. Salts are concatenated with a cryptographic hash function, and the resulting output (but not the original password) is stored with the salt in a database.</p>
+<h2 id="bcrypt">bcrypt <a class="direct-link" href="#bcrypt">#</a></h2>
+<p>Bcrypt is also a hashing algorithm, but it is different from MD5 and SHA-1, which we explored earlier. You can take it for a spin <a href="https://bcrypt-generator.com/">here</a>.</p>
+<p>When you visit the link, note that you have to select a number of rounds. This refers to the computational cost of the function which in turn controls how much time is required to calculate a single bcrypt hash. The higher the cost factor, the more hashing rounds are required. Increasing the number of rounds by one dooubles the necessary time, and the more time it takes, the more difficult it is for hackers to issue a brute-force attack. This configurable cost is one of the reasons why bcrypt is so secure.</p>
+<p>Unlike MD5 and SHA-1, bcrypt requires a salt as part of the hashing process, making it markedly more secure.</p>
+<p>Bcrypt is designed to be <em>expensive to compute</em>, meaning that, even if, hypothetically speaking, it didn't take an extraordinary amount of attempts for an attacker to guess what the input was, there is a very high computational cost to <em>testing</em> each guess.</p>
+<h2 id="what-does-rails-use%3F">what does rails use? <a class="direct-link" href="#what-does-rails-use%3F">#</a></h2>
+<p>This should come as no surprise: it's bcrypt!</p>
+
+
+<p><a href="/">← Home</a></p>
+
+    </main>
+
+    <footer></footer>
+
+    <!-- Current page: /posts/encryptionone/ -->
+  </body>
+</html>

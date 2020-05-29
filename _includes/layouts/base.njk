@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ renderData.title or title or metadata.title }}</title>
     <meta name="Description" content="{{ renderData.description or description or metadata.description }}">
-    {# <meta property="og:image" content="_site/img/thinking-emoji.jpg" />
-    <meta name="twitter:card" content="The Frage Haver" />
-    <meta name="twitter:site" content="@torahwilcox" />
-    <meta name="twitter:creator" content="@torahwilcox" />
-    <meta property="og:url" content="http://bits.blogs.nytimes.com/2011/12/08/a-twitter-for-my-sister/" />
-    <meta property="og:title" content="A Twitter for My Sister" />
-    <meta property="og:description" content="In the early days, Twitter grew so quickly that it was almost impossible to add new features because engineers spent their time trying to keep the rocket ship from stalling." />
-    <meta property="og:image" content="http://graphics8.nytimes.com/images/2011/12/08/technology/bits-newtwitter/bits-newtwitter-tmagArticle.jpg" /> #}
+    {# twitter card stuff potentially goes here if dynamic #}
+    <meta name="twitter:card" content="{{cardType}}" />
+    <meta name="twitter:creator" content={{site.authorTwitterUrl}} />
+    <meta property="og:url" content="{{site.url}}{{page.url}}" />
+    <meta property="og:title" content="{{cardTitle}}" />
+    <meta property="og:description" content="{% if excerpt %}{{excerpt}}{% else %}{{site.summary}}{% endif %}" />
+    <meta name="twitter:image" content="{{cardImage}}" />
+    <meta property="og:image" content="{{cardImage}}" />
+    {# twitter card stuff ends here #}
     <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
     <link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
