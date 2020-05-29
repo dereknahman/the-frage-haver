@@ -4,7 +4,7 @@
 	<subtitle>Asking and answering questions about programming.</subtitle>
 	<link href="https://myurl.com/feed/feed.xml" rel="self"/>
 	<link href="https://thefragehaver.com/"/>
-	<updated>2020-05-24T01:00:00+01:00</updated>
+	<updated>2020-05-29T01:00:00+01:00</updated>
 	<id>https://myurl.com/</id>
 	<author>
 		<name>Kirsty Simmonds</name>
@@ -75,7 +75,7 @@
 	<entry>
 		<title>baby&#39;s first hash encryption</title>
 		<link href="https://thefragehaver.com/posts/encryptionone/"/>
-		<updated>2020-05-24T01:00:00+01:00</updated>
+		<updated>2020-05-29T01:00:00+01:00</updated>
 		<id>https://thefragehaver.com/posts/encryptionone/</id>
 		<content type="html">&lt;h2 id=&quot;i-didn&#39;t-know-anything-about-encryption-when-i-started-writing-this&quot;&gt;i didn&#39;t know anything about encryption when i started writing this &lt;a class=&quot;direct-link&quot; href=&quot;#i-didn&#39;t-know-anything-about-encryption-when-i-started-writing-this&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;I didn&#39;t know anything about security, really. I probably should have, but I didn&#39;t. Lots of interesting people with part-shaved, multi-coloured hair on Twitter know about security and they&#39;re super smart and cool but I never understand what they&#39;re talking about and merely look on in awe while they say hackerish sounding things before going back to fixing the styling on my buttons.&lt;/p&gt;

@@ -1,7 +1,7 @@
 ---
 title: baby's first hash encryption
 description: a password hash with extra salt, please
-date: 2020-05-24
+date: 2020-05-29
 tags:
   - security
 layout: layouts/post.njk
