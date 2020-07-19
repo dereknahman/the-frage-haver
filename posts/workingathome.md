@@ -30,6 +30,6 @@ Also, and this is kind of unorthodox, but I took my Twitter blackouts a step fur
 
 ## tracking time
 
-I've been known to work 11-hour days and then panic I'm not working enough. I no longer have the changes of scenery that mark the beginning and end of the day working in an office, meaning that there's always scope to go just a little further, do tons of courses on Udemy to "keep up", and generally make yourself miserable.
+I've been known to work 11-hour days and then panic I'm not working enough. I no longer have the changes of scenery that mark the beginning and end of the day working in an office, meaning that there's always scope to go just a little further, do tons of courses on Udemy to "keep up", and generally make myself miserable.
 
 I've decided to replace this nagging feeling I'm being lazy with data. Using [Toggl](https://toggl.com), I'll keep my own timesheets for work-work and extra-curricular studies on evenings and weekends and see if that gets rid of my pervasive fear of being lazy, or seen as lazy. There's a free plan and there are several paid plans with varying levels of complexity. I'm using the free one for now.
