@@ -32,12 +32,17 @@
   </url>
   
   <url>
-    <loc>https://thefragehaver.com/tags/security/</loc>
+    <loc>https://thefragehaver.com/tags/working%20from%20home/</loc>
     <lastmod>2020-05-17</lastmod>
   </url>
   
   <url>
     <loc>https://thefragehaver.com/tags/first-post/</loc>
+    <lastmod>2020-05-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thefragehaver.com/tags/security/</loc>
     <lastmod>2020-05-17</lastmod>
   </url>
   
@@ -79,5 +84,10 @@
   <url>
     <loc>https://thefragehaver.com/img/Hashing%20in%20Action%20Understanding%20bcrypt_files/a/</loc>
     <lastmod>2020-05-29</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thefragehaver.com/posts/workingathome/</loc>
+    <lastmod>2020-07-20</lastmod>
   </url>
 </urlset>
