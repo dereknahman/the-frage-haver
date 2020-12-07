@@ -7,7 +7,7 @@ tags:
 layout: layouts/post.njk
 ---
 
-On Hallowe'en 2020, the most accursed day in this most accursed year, I was diagnosed with Attention Deficit Hyperactivity Disorder (ADHD). The news was a shock, but not a surprise. With a lifetime of being told off for not keeping still, speaking too fast, and reading about coal seam fires for six-hour stretches at the expense of doing chores, it was easy for me to come to terms with the idea there was something "going on". I wasn't prepared for the post-diagnosis euphoria ('Finally, an answer!!!') and I certainly wasn't prepared for the post-diagnosis-euphoria slump ('I am irreparably damaged forever!!!'). I've been doing my best to make sense of what this diagnosis means in real money and the only solid answers I can come up with are:
+On Hallowe'en 2020, the most accursed day in this most accursed year, I was diagnosed with Attention Deficit Hyperactivity Disorder (ADHD). The news was a shock, but not a surprise. With a lifetime of being told off for not keeping still, speaking too fast, and reading about coal seam fires for six-hour stretches at the expense of doing chores behind me, it was easy for me to come to terms with the idea there was something "going on". I wasn't prepared for the post-diagnosis euphoria ('Finally, an answer!!!') and I certainly wasn't prepared for the post-diagnosis-euphoria slump ('I am irreparably damaged forever!!!'). I've been doing my best to make sense of what this diagnosis means in real money and the only solid answers I can come up with are:
 
 - I need more help than the average person to organise myself and my thoughts, and to stay on task.
 - Most people don't know how to give me that help.
