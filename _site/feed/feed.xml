@@ -4,7 +4,7 @@
 	<subtitle>Asking and answering questions about programming.</subtitle>
 	<link href="https://myurl.com/feed/feed.xml" rel="self"/>
 	<link href="https://thefragehaver.com/"/>
-	<updated>2020-07-20T01:00:00+01:00</updated>
+	<updated>2020-12-20T00:00:00+00:00</updated>
 	<id>https://myurl.com/</id>
 	<author>
 		<name>Kirsty Simmonds</name>
@@ -14,7 +14,7 @@
 	<entry>
 		<title>hello, world!</title>
 		<link href="https://thefragehaver.com/posts/firstpost/"/>
-		<updated>2019-07-29T01:00:00+01:00</updated>
+		<updated>2019-07-28T23:00:00+01:00</updated>
 		<id>https://thefragehaver.com/posts/firstpost/</id>
 		<content type="html">&lt;p&gt;I started this blog for a few reasons:&lt;/p&gt;
 &lt;p&gt;👉🏻 To record questions I have about the new technologies I’m learning.&lt;/p&gt;
@@ -29,7 +29,7 @@
 	<entry>
 		<title>job searching</title>
 		<link href="https://thefragehaver.com/posts/jobsearch/"/>
-		<updated>2020-05-20T01:00:00+01:00</updated>
+		<updated>2020-05-19T23:00:00+01:00</updated>
 		<id>https://thefragehaver.com/posts/jobsearch/</id>
 		<content type="html">&lt;p&gt;In the past 12 months I have technically gotten five jobs in tech:&lt;/p&gt;
 &lt;ol&gt;
@@ -75,7 +75,7 @@
 	<entry>
 		<title>baby&#39;s first hash encryption</title>
 		<link href="https://thefragehaver.com/posts/encryptionone/"/>
-		<updated>2020-05-29T01:00:00+01:00</updated>
+		<updated>2020-05-28T23:00:00+01:00</updated>
 		<id>https://thefragehaver.com/posts/encryptionone/</id>
 		<content type="html">&lt;h2 id=&quot;i-didn&#39;t-know-anything-about-encryption-when-i-started-writing-this&quot;&gt;i didn&#39;t know anything about encryption when i started writing this &lt;a class=&quot;direct-link&quot; href=&quot;#i-didn&#39;t-know-anything-about-encryption-when-i-started-writing-this&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;I didn&#39;t know anything about security, really. I probably should have, but I didn&#39;t. Lots of interesting people with part-shaved, multi-coloured hair on Twitter know about security and they&#39;re super smart and cool but I never understand what they&#39;re talking about and merely look on in awe while they say hackerish sounding things before going back to fixing the styling on my buttons.&lt;/p&gt;
@@ -124,7 +124,7 @@
 	<entry>
 		<title>this is how i work from home</title>
 		<link href="https://thefragehaver.com/posts/workingathome/"/>
-		<updated>2020-07-20T01:00:00+01:00</updated>
+		<updated>2020-07-19T23:00:00+01:00</updated>
 		<id>https://thefragehaver.com/posts/workingathome/</id>
 		<content type="html">&lt;h2 id=&quot;you&#39;re-probably-dealing-with-being-thrust-into-remote-working-while-being-much-sadder-than-usual&quot;&gt;you&#39;re probably dealing with being thrust into remote working while being much sadder than usual &lt;a class=&quot;direct-link&quot; href=&quot;#you&#39;re-probably-dealing-with-being-thrust-into-remote-working-while-being-much-sadder-than-usual&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Technically, the job I&#39;ve got now was always going to be remote, COVID or no COVID. I signed up for it. What I certainly didn&#39;t sign up for, though, was trying to keep my focus on learning React Native and Rails in the midst of a pandemic, while my friends lose their jobs and I worry about mine, while I freak out every time a stranger comes within reaching distance of me. We&#39;re not just working remote, we&#39;re working remote during a pandemic. Our focus is screwed, we&#39;re stressed and sad, and a lot of us are strapping in for our second recession since we left school.&lt;/p&gt;
@@ -142,6 +142,38 @@
 &lt;h2 id=&quot;tracking-time&quot;&gt;tracking time &lt;a class=&quot;direct-link&quot; href=&quot;#tracking-time&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;I&#39;ve been known to work 11-hour days and then panic I&#39;m not working enough. I no longer have the changes of scenery that mark the beginning and end of the day working in an office, meaning that there&#39;s always scope to go just a little further, do tons of courses on Udemy to &amp;quot;keep up&amp;quot;, and generally make myself miserable.&lt;/p&gt;
 &lt;p&gt;I&#39;ve decided to replace this nagging feeling I&#39;m being lazy with data. Using &lt;a href=&quot;https://toggl.com/&quot;&gt;Toggl&lt;/a&gt;, I&#39;ll keep my own timesheets for work-work and extra-curricular studies on evenings and weekends and see if that gets rid of my pervasive fear of being lazy, or seen as lazy. There&#39;s a free plan and there are several paid plans with varying levels of complexity. I&#39;m using the free one for now.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>adventures in adhd</title>
+		<link href="https://thefragehaver.com/posts/adhd/"/>
+		<updated>2020-12-20T00:00:00+00:00</updated>
+		<id>https://thefragehaver.com/posts/adhd/</id>
+		<content type="html">&lt;p&gt;On Hallowe&#39;en 2020, the most accursed day in this most accursed year, I was diagnosed with Attention Deficit Hyperactivity Disorder (ADHD). The news was a shock, but not a surprise. With a lifetime of being told off for not keeping still, speaking too fast, and reading about coal seam fires for six-hour stretches at the expense of doing chores, it was easy for me to come to terms with the idea there was something &amp;quot;going on&amp;quot;. I wasn&#39;t prepared for the post-diagnosis euphoria (&#39;Finally, an answer!!!&#39;) and I certainly wasn&#39;t prepared for the post-diagnosis-euphoria slump (&#39;I am irreparably damaged forever!!!&#39;). I&#39;ve been doing my best to make sense of what this diagnosis means in real money and the only solid answers I can come up with are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I need more help than the average person to organise myself and my thoughts, and to stay on task.&lt;/li&gt;
+&lt;li&gt;Most people don&#39;t know how to give me that help.&lt;/li&gt;
+&lt;li&gt;Some wouldn&#39;t if they could because there&#39;s a lot of misinformation about ADHD out there, also some people are just terrible and say things like &#39;hr hr hr akshully it&#39;s made up&#39; despite the overwhelming evidence to the contrary.&lt;/li&gt;
+&lt;li&gt;Actually, &lt;em&gt;I&lt;/em&gt; don&#39;t even know what to ask for. Where does me being generally incapable end and ADHD begin?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Everyone reading this knows what it&#39;s like to procrastinate and get distracted. I know what it&#39;s like to be sad sometimes, but that doesn&#39;t mean I can understand depression from the inside. The degree of the &#39;impairment&#39; is key, and I am nothing if not impaired at the moment. You can pull it out of the bag when you have to, I fall into the fucking bag and don&#39;t come out again until I&#39;ve picked up 19 new hobbies, had a panic attack, signed up to three new Zoom language classes and changed career. The mildest criticism feels like the end of the world to me. This is a shame because I am criticised regularly for a variety of reasons, all stemming from my brain chemistry being a bit light on the dopamine.&lt;/p&gt;
+&lt;p&gt;So I have a disorder that leads me to behave in ways that elicit frequent critiques from people while also making it next to impossible to handle any criticism. It&#39;s not exactly what you&#39;d call &#39;fair&#39;.&lt;/p&gt;
+&lt;p&gt;With this new diagnosis, I now have to advocate for myself as a person with ADHD. I hate the idea of having to ask for help, I HATE having to lay out in detail how that help should look to unsuspecting members of the public who have their own troubles to deal with, and I really hate that I&#39;ve been lumbered with a brain that is locked in an endless struggle while also giving the impression that it&#39;s doing absolutely fuck all. I am as yet unmedicated and, I can tell you now, my memory is a myth. I cannot recall facts, figures, gossip or directions. If I don&#39;t reply to a message then and there it might as well not exist. Trying hard, while valiant, doesn&#39;t work. If mere effort could solve my problems, I wouldn&#39;t be forgetting basic instructions and finding myself increasingly subject to talking about my brain as if it&#39;s utterly separate from my body, which is how it feels most days. &amp;quot;My brain is playing up today&amp;quot; or &amp;quot;I just can&#39;t seem to get through to my brain today&amp;quot; are things I say often. It probably looks baffling. It certainly feels baffling to me.&lt;/p&gt;
+&lt;p&gt;I start medication in a few days, pending some test results. If anyone has tips for handling that, do give me a shout using the email in the &#39;about&#39; section or on Twitter. If you&#39;re wondering about getting an ADHD diagnosis and want to speak to me about how I handled mine, don&#39;t be shy. Please don&#39;t expect a very timely response, for obvious reasons. I will get around to it eventually.&lt;/p&gt;
+&lt;h2 id=&quot;resources&quot;&gt;resources &lt;a class=&quot;direct-link&quot; href=&quot;#resources&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Here are some resources that are helping me to find my place on this new, twitchy plane.&lt;/p&gt;
+&lt;h3 id=&quot;videos&quot;&gt;videos &lt;a class=&quot;direct-link&quot; href=&quot;#videos&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/channel/UC-nPM1_kSZf91ZGkcgy_95Q&quot;&gt;How to ADHD&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;https://www.youtube.com/user/TotallyADD&quot;&gt;Totally ADD&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;https://www.youtube.com/watch?v=YSfCdBBqNXY&quot;&gt;ADHD: Essential Ideas for Parents&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;https://youtu.be/ouZrZa5pLXk&quot;&gt;ADD/ADHD | What Is Attention Deficit Hyperactivity Disorder?&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;books&quot;&gt;books &lt;a class=&quot;direct-link&quot; href=&quot;#books&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.waterstones.com/book/you-mean-im-not-lazy-stupid-or-crazy/kate-kelly/9780743264488&quot;&gt;You Mean I&#39;m Not Lazy, Stupid or Crazy?!: The Classic Self-help Book for Adults with Attention Deficit Disorder&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;https://www.waterstones.com/book/driven-to-distraction/ned-hallowell/dr-john-j-ratey/9780684801285&quot;&gt;Driven to Distraction: Recognizing and Coping with Attention Deficit Disorder from Childhood Through Adulthood&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;sites&quot;&gt;sites &lt;a class=&quot;direct-link&quot; href=&quot;#sites&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://askjan.org/&quot;&gt;Job Accommodation Network&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;https://www.gov.uk/access-to-work&quot;&gt;Access to Work&lt;/a&gt;&lt;/p&gt;
 </content>
 	</entry>
 </feed>
