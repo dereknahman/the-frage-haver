@@ -1,7 +1,7 @@
 ---
 title: adventures in adhd
 description: a neurodivergence special
-date: 2020-12-20
+date: 2020-12-07
 tags:
   - adhd
 layout: layouts/post.njk
