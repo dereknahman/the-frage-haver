@@ -7,8 +7,12 @@ navtitle: about
 templateClass: tmpl-post
 ---
 
-I am Kirsty. I'm from London and I live here now after a great year-and-a-bit spent in Berlin learning to code.
+I'm Kirsty.
 
 I used to work in architecture and journalism and now I'm a programmer.
+
+I work for a big, pink newspaper.
+
+I like fabric craft, plants, giant clompy shoes and making things.
 
 You can find me at kirstysimmonds@icloud.com.
