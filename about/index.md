@@ -1,13 +1,11 @@
 ---
 layout: layouts/post.njk
-title: about me
+title: hi, i'm kirsty
 tags:
   - nav
 navtitle: about
 templateClass: tmpl-post
 ---
-
-I'm Kirsty.
 
 I used to work in architecture and journalism and now I'm a programmer.
 
