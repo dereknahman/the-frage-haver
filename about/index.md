@@ -11,8 +11,8 @@ I'm Kirsty.
 
 I used to work in architecture and journalism and now I'm a programmer.
 
-I work for a big, pink newspaper.
+I work for a newspaper.
 
-I like fabric craft, plants, giant clompy shoes and making things.
+Since lockdown I've been obsessed with fabric craft, and I'm happily flitting between amigurumi, knitting and crochet when I'm not at work.
 
 You can find me at kirstysimmonds@icloud.com.
